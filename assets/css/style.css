@@ -1,6 +1,11 @@
+body {
+    background-color: #129B92;
+    color: #f5f5f5;
+}
+
 .nav-bar {
     height: 100px;
-    background-color: #12499b;
+    background-color: #12499B;
     position: relative;
 }
 
@@ -12,7 +17,6 @@
 
 .nav-list li {
     display: inline;
-    color: white;
     font-size: 20px;
     margin-right: 40px;
 }
@@ -20,4 +24,24 @@
 #navBarCV {
     float: right;
     margin-right: 40px;
+}
+
+#introSection {
+    height: 100vh;
+    padding: 90px;
+    background: url(/assets/images/computer-image.jpg) no-repeat center left;
+    background-color: rgb(14, 16, 15);
+}
+
+#logo {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    background: url(/assets/images/logo-pic.jpg) center;
+}
+
+hr {
+    border-color: #12499B;
+    border-width: thin;
 }
