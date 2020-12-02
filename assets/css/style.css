@@ -47,6 +47,10 @@ h3 {
     background: url(/assets/images/logo-pic.jpg) center;
 }
 
+#projectsSection {
+    height: 600px;
+}
+
 hr {
     border-color: #12499B;
     border-width: thin;
@@ -61,7 +65,7 @@ hr {
 
 .resume {
     text-align: center;
-    height: 100vh;
+    height: 600px;
     background-color: #000;
 }
 
@@ -72,4 +76,19 @@ hr {
 
 .resume-list li {
     margin: 30px;
+}
+
+.interests-hobbies {
+    text-align: center;
+    height: 600px;
+}
+
+.interests-hobbies div ul {
+    padding: 0;
+}
+
+.interests-hobbies div ul li {
+    list-style-type: none;
+    margin: 30px;
+
 }
