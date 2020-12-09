@@ -92,3 +92,15 @@ hr {
     margin: 30px;
 
 }
+
+#contactSection {
+    background-color: rgb(14, 16, 15);
+}
+
+.form > input {
+    display: block;
+}
+
+#message {
+    height: 200px;
+}
