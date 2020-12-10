@@ -1,3 +1,4 @@
+/* General styles */
 body {
     background-color: #129B92;
     color: #f5f5f5;
@@ -9,6 +10,7 @@ h3 {
     margin-top: 50px;
 }
 
+/* Navbar */
 .nav-bar {
     height: 100px;
     background-color: #12499B;
@@ -32,6 +34,7 @@ h3 {
     margin-right: 40px;
 }
 
+/* Intro section */
 #introSection {
     height: 100vh;
     padding: 90px;
@@ -47,6 +50,7 @@ h3 {
     background: url(/assets/images/logo-pic.jpg) center;
 }
 
+/* Projects section */
 #projectsSection {
     height: 600px;
 }
@@ -63,6 +67,7 @@ hr {
     margin-bottom: 50px;
 }
 
+/* Resume section */
 .resume {
     text-align: center;
     height: 600px;
@@ -78,6 +83,7 @@ hr {
     margin: 30px;
 }
 
+/* interests and hobbies section */
 .interests-hobbies {
     text-align: center;
     height: 600px;
@@ -93,10 +99,12 @@ hr {
 
 }
 
+/* Contact section */
 #contactSection {
     background-color: rgb(14, 16, 15);
 }
 
+/* Contact me section */
 .form > input {
     display: block;
 }
