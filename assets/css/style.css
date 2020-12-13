@@ -119,5 +119,6 @@ hr {
 
 /* Footer */
 .footer {
-
+    text-align: center;
+    font-size: 5em;
 }
