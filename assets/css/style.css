@@ -11,27 +11,22 @@ h3 {
 }
 
 /* Navbar */
-.nav-bar {
-    height: 100px;
-    background-color: #12499B;
-    position: relative;
-}
-
 .nav-list {
+    background-color: #12499B;
     text-align: left;
     vertical-align: middle;
-    line-height: 100px;
+    padding: 2% 2%;
+    margin: 0;
 }
 
 .nav-list li {
     display: inline;
-    font-size: 20px;
-    margin-right: 40px;
+    font-size: 100%;
 }
 
 #navBarCV {
     float: right;
-    margin-right: 40px;
+    margin-right: 1%;
 }
 
 /* Intro section */
@@ -104,8 +99,7 @@ hr {
     background-color: rgb(14, 16, 15);
 }
 
-/* Contact me section */
-.form > input {
+.form input {
     display: block;
 }
 
