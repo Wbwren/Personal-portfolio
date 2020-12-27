@@ -32,17 +32,7 @@ h3 {
 /* Intro section */
 #introSection {
     height: 100vh;
-    padding: 90px;
-    background: url(/assets/images/computer-image.jpg) no-repeat center left;
     background-color: rgb(14, 16, 15);
-}
-
-#logo {
-    border-radius: 50%;
-    height: 400px;
-    width: 400px;
-    margin: auto;
-    background: url(/assets/images/logo-pic.jpg) center;
 }
 
 /* Projects section */
