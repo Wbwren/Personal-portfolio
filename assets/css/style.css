@@ -41,10 +41,34 @@ ul {
     margin: 0 2%;
 }
 
+nav a {
+    color: white;
+}
+
 #logo {
     display: inline-block;
     font-size: 3em;
     margin-right: auto;
+}
+ 
+nav li::after {
+    content: '';
+    height: 10px;
+    width: 0;
+    border-radius: 30%;
+    display: block;
+    background-color: red;
+    transition: all ease-in-out 1000ms;
+}
+
+nav li:hover::after {
+    width: 100%;
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
 }
 
 /* Intro section */
