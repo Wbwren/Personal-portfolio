@@ -47,7 +47,7 @@ nav a {
 
 #logo {
     display: inline-block;
-    font-size: 3em;
+    font-size: 3rem;
     margin-right: auto;
 }
  
@@ -72,13 +72,13 @@ a:hover {
 }
 
 /* Intro section */
-#introSection {
+#intro-section {
     height: 100vh;
     background-color: rgb(14, 16, 15);
 }
 
 /* Projects section */
-#projectsSection {
+#projects-section {
     height: 600px;
 }
 
@@ -95,7 +95,7 @@ hr {
 }
 
 /* Resume section */
-.resume {
+#resume {
     text-align: center;
     height: 600px;
     background-color: #000;
@@ -107,7 +107,13 @@ hr {
 }
 
 .resume-list li {
-    margin: 30px;
+    margin-bottom: 30px;
+}
+
+.tech {
+    display: block;
+    color: red;
+    font-size: 5rem;
 }
 
 /* interests and hobbies section */
@@ -127,7 +133,7 @@ hr {
 }
 
 /* Contact section */
-#contactSection {
+#contact-section {
     background-color: rgb(14, 16, 15);
 }
 
@@ -144,7 +150,12 @@ hr {
 }
 
 /* Footer */
-.footer {
+footer li {
+    font-size: 5rem;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+footer ul {
     text-align: center;
-    font-size: 5em;
 }
