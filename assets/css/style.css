@@ -95,7 +95,7 @@ hr {
 }
 
 /* Resume section */
-#resume {
+#resume-section {
     text-align: center;
     height: 600px;
     background-color: #000;
@@ -117,16 +117,16 @@ hr {
 }
 
 /* interests and hobbies section */
-.interests-hobbies {
+#interests-hobbies {
     text-align: center;
     height: 600px;
 }
 
-.interests-hobbies div ul {
+#interests-hobbies div ul {
     padding: 0;
 }
 
-.interests-hobbies div ul li {
+#interests-hobbies div ul li {
     list-style-type: none;
     margin: 30px;
 
