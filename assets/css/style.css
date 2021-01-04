@@ -59,7 +59,7 @@ nav {
     padding: 1%;
     border: solid 1px #66fcf1;
     border-radius: 10px;
-    box-shadow: -10px 10px;
+    box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
 }
 
 nav a {
@@ -70,7 +70,7 @@ nav a {
     display: inline-block;
     font-size: 3rem;
     margin-right: auto;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
 }
  
 nav li::after {
