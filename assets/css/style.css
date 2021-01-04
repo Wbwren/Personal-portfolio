@@ -37,6 +37,11 @@ hr {
 }
 
 /* Navbar */
+nav {
+    border-bottom: solid 1px #66fcf1;
+    margin-bottom: 2rem;
+}
+
 .nav-list {
     padding: 2% 2%;
     display: flex;
@@ -83,10 +88,6 @@ nav li:hover::after {
 a:hover {
     text-decoration: none;
     color: red;
-}
-
-#nav-hr {
-    width: 90%;
 }
 
 /* Intro section */
