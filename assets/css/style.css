@@ -198,20 +198,13 @@ footer ul {
 }
 
 footer a {
-    color: #66fcf1;
+    color: #66fcf1
 }
 
-#email-icon {
-    text-shadow: 3px -3px #c5c6c7;
+#email-icon, #linkedin-icon {
+    text-shadow: 5px -5px #c5c6c7, 4.5px -4.5px #c5c6c7, 4px -4px #c5c6c7, 3.5px -3.5px #c5c6c7, 3px -3px #c5c6c7, 2.5px -2.5px #c5c6c7, 2px -2px #c5c6c7, 1.5px -1.5px #c5c6c7, 1px -1px #c5c6c7, 0.5px -0.5px #c5c6c7;
 }
 
-#linkedin-icon{
-    text-shadow: 3px -3px #c5c6c7;
-}
-
-#twitter-icon {
-    text-shadow: -3px -3px #c5c6c7;
-}
-#github-icon {
-    text-shadow: -3px -3px #c5c6c7;
+#twitter-icon, #github-icon {
+    text-shadow: -5px -5px #c5c6c7, -4.5px -4.5px #c5c6c7, -4px -4px #c5c6c7, -3.5px -3.5px #c5c6c7, -3px -3px #c5c6c7, -2.5px -2.5px #c5c6c7, -2px -2px #c5c6c7, -1.5px -1.5px #c5c6c7, -1px -1px #c5c6c7, -0.5px -0.5px #c5c6c7;
 }
