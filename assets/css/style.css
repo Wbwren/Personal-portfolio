@@ -11,6 +11,7 @@ body {
 h1 {
     color: #c5c6c7;
     font-weight: 300;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -108,7 +109,7 @@ a:hover {
     margin-right: 15%;
     margin-bottom: 5em;
     border-radius: 10px;
-    box-shadow: 0 0, 10px 10px;
+    box-shadow: 10px 10px;
 }
 
 .project-image-col-2 {
@@ -196,4 +197,19 @@ footer ul {
 
 footer a {
     color: #66fcf1;
+}
+
+#email-icon {
+    text-shadow: 3px -3px #c5c6c7;
+}
+
+#linkedin-icon{
+    text-shadow: 3px -3px #c5c6c7;
+}
+
+#twitter-icon {
+    text-shadow: -3px -3px #c5c6c7;
+}
+#github-icon {
+    text-shadow: -3px -3px #c5c6c7;
 }
