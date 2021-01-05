@@ -152,7 +152,7 @@ a:hover {
 }
 
 .project-image-col-1 {
-    height: 200px;
+    height: 150px;
     border: solid 2px #66fcf1;
     width: 15em;
     margin: auto;
@@ -160,10 +160,11 @@ a:hover {
     margin-bottom: 5em;
     border-radius: 10px;
     box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
+    overflow: hidden;
 }
 
 .project-image-col-2 {
-    height: 200px;
+    height: 150px;
     border: solid 2px #66fcf1;
     width: 15em;
     margin: auto;
@@ -171,6 +172,12 @@ a:hover {
     margin-bottom: 5em;
     border-radius: 10px;
     box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 10px;
 }
 
 /* Resume section */
