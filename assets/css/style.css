@@ -27,6 +27,11 @@ h3 {
     display: block;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 /* Styiling for section headings */
 span {
     width: 100%;
@@ -34,12 +39,6 @@ span {
 
 .col-2, .col-5 {
     margin: auto;
-}
-
-
-ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 hr {
@@ -69,7 +68,6 @@ hr {
 /* Navbar */
 nav {
     border-bottom: solid 1px #66fcf1;
-    margin-bottom: 2rem;
 }
 
 .nav-list {
@@ -124,15 +122,24 @@ a:hover {
 
 /* Intro section */
 #intro-section {
-    height: 40vw;
+    height: 600px;
+}
+
+.hero-image {
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #portrait {
-    width: 60%;
+    width: 70%;
+    max-width: 350px;
+    border: solid 1px #66fcf1;
+    border-radius: 50%;
 }
 
 #portrait-span {
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 /* Projects section */
