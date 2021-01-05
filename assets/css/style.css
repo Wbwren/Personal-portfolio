@@ -124,7 +124,15 @@ a:hover {
 
 /* Intro section */
 #intro-section {
-    height: 600px;
+    height: 40vw;
+}
+
+#portrait {
+    width: 60%;
+}
+
+#portrait-span {
+    margin-left: 30%;
 }
 
 /* Projects section */
