@@ -222,6 +222,10 @@ a:hover {
     margin-bottom: 1rem;
 }
 
+.referee-title {
+    color: #66fcf1;
+}
+
 /* Interests and hobbies section */
 #interests-hobbies {
     text-align: center;
