@@ -206,17 +206,17 @@ a:hover {
 
 /* Testimonials section */
 
-#testimonials {
+#testimonials-section {
     height: 600px;
 }
 
-#testimonials p {
+#testimonials-section p {
     margin: auto;
     max-width: 1000px;
     margin-bottom: 3rem;
 }
 
-#testimonials h4 {
+#testimonials-section h4 {
     width: 1000px;
     margin: auto;
     margin-bottom: 1rem;
