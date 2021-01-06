@@ -203,7 +203,25 @@ a:hover {
     font-size: 5rem;
 }
 
-/* interests and hobbies section */
+/* Testimonials section */
+
+#testimonials {
+    height: 600px;
+}
+
+#testimonials p {
+    margin: auto;
+    max-width: 1000px;
+    margin-bottom: 3rem;
+}
+
+#testimonials h4 {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+/* Interests and hobbies section */
 #interests-hobbies {
     text-align: center;
     height: 600px;
