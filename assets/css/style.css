@@ -6,6 +6,8 @@ body {
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
     background-color: #1f2833;
+    max-width: 2000px;
+    margin: auto;
 }
 
 h1 {
