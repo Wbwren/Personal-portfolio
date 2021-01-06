@@ -150,7 +150,7 @@ a:hover {
 }
 
 /* Projects section */
-#projects-section {
+#portfolio-section {
     height: 600px;
 }
 
@@ -183,8 +183,8 @@ a:hover {
     border-radius: 10px;
 }
 
-/* Resume section */
-#resume-section {
+/* About section */
+#about-section {
     text-align: center;
     height: 600px;
 }
