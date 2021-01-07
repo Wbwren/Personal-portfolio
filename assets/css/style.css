@@ -79,9 +79,10 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 0;
+    width: 100%;
 }
 
-.nav-list li {
+.nav-item {
     display: inline-block;
     font-size: 100%;
     text-transform: uppercase;
@@ -96,9 +97,8 @@ nav a {
     color: #c5c6c7;
 }
 
-#logo {
+#logo-container {
     display: inline-block;
-    font-size: 3rem;
     margin-right: auto;
     box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
 }
@@ -125,6 +125,52 @@ nav li:hover::after {
 a:hover {
     text-decoration: none;
     color: #c5c6c7;
+}
+
+@media only screen and (max-width: 865px) {
+    .nav-item {
+        font-size: 80%;
+    }
+    
+    #logo-image {
+        width: 90px;
+    }
+
+}
+
+@media only screen and (max-width: 745px) {
+    .nav-item {
+        font-size: 60%;
+    }
+
+    #logo-image {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .nav-list {
+        padding: 2% 2%;
+        display: block;
+        margin-bottom: 2rem;
+}
+    
+    .nav-item {
+        width: 50px;
+        height: 5px;
+        font-size: 10px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 10px;
+        box-shadow: none;
+        padding: 1rem;
+        text-align: left;
+        display: block;
+    }
+
+    #logo-container {
+        display: none;
+    }
 }
 
 /* Intro section */
