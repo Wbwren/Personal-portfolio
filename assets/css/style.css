@@ -261,6 +261,10 @@ form {
     border-radius: 5px;
 }
 
+.form input:hover {
+    border-color: #c5c6c7;
+}
+
 #message {
     height: 200px;
 }
@@ -274,6 +278,14 @@ form {
     color: #66fcf1;
     border-color: #66fcf1;
     border-radius: 5px;
+    width: 7rem;
+    height: 3rem;
+}
+
+#submit:hover {
+    background-color: #66fcf1;
+    border-color: #c5c6c7;
+    color: #c5c6c7;
 }
 
 .button-container {
