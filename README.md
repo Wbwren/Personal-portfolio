@@ -60,6 +60,9 @@ Static website containing a personal bio, projects, interests, work history, str
 ### Design
 
 #### Colour Scheme
+* #c5c6c7 - font color
+* #66fcf1 - highlight font color
+* #1f2833 - background color
 
 #### Typography
 
