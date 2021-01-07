@@ -192,6 +192,12 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.tech {
+    display: block;
+    color: red;
+    font-size: 5rem;
+}
+
 .tech-list {
     text-align: center;
     border-right: solid 5px #66fcf1;
@@ -221,10 +227,16 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.tech {
-    display: block;
-    color: red;
-    font-size: 5rem;
+.about-cv {
+    text-align: center;
+    border: solid 1px #66fcf1;
+    padding: 1rem;
+    color: #66fcf1;
+}
+
+.about-cv-container {
+    text-align: center;    
+    margin-top: 3rem;
 }
 
 /* Testimonials section */
