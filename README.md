@@ -65,6 +65,9 @@ Static website containing a personal bio, projects, interests, work history, str
 * #1f2833 - background color
 
 #### Typography
+* Roboto slab is the font used throughout the webpage with the font serif as the fallback font in the case of the default font failing to load correctly.
+* Line spacing of 1.5 is used throughout the website.
+* A font-weight of 300, 200, 200 and 100 is used on the h1s, h2s, h3s and body element, respectively.
 
 #### Imagery
 
