@@ -2,6 +2,36 @@
 A well designed, visually pleasing and informative website to demonstrate to employers my suitability for a 
 developer role and provide a means for other developers to collaborate. 
 
+## Project purpose
+The purpose of this website was to showcase my skills and portfolio to potential employers and collaborators.
+The site itself is a demonstration of my ability to write HTML and CSS. 
+
+The website has the following sections:
+* Home page
+
+  The home page contains a navigation bar linking to all of the other sections and a brief introduction to the website designer.
+
+* Portfolio
+
+  The portfolio section displays four projects that link to Github repositories.
+
+* About
+
+  The about section lists the technologies that the portfolio owner has experience with, educational background and specific areas of expertise.
+
+* Testimonials
+
+  The testimonials section lists two references from past lecturers of the portfolio owner.
+
+* Interests and hobbies
+
+  The interests and hobbies section lists the portfolio owners interests and hobbies.
+
+* Contact
+
+  The contact section contains a form in which a visitor may send the website owner an email.
+
+
 ## UX
 
 ### User stories
