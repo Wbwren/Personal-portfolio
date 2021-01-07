@@ -249,20 +249,36 @@ a:hover {
 
 form {
     padding: 40px;
-    width: 60%;
+    width: 30%;
+    margin: auto;
 }
 
 .form input {
     display: block;
+    background-color: transparent;
+    border-color: #66fcf1;
+    width: 100%;
+    border-radius: 5px;
 }
 
 #message {
     height: 200px;
 }
 
-.resume-link {
+.label {
+    margin-top: 2rem;
+}
+
+#submit {
+    background-color: transparent;
+    color: #66fcf1;
+    border-color: #66fcf1;
+    border-radius: 5px;
+}
+
+.button-container {
     text-align: center;
-    color: #f5f5f5;
+    margin-top: 1rem;
 }
 
 /* Footer */
