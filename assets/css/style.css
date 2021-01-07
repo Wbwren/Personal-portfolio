@@ -160,7 +160,7 @@ a:hover {
     width: 15em;
     margin: auto;
     margin-right: 15%;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
     border-radius: 10px;
     box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
     overflow: hidden;
@@ -172,7 +172,7 @@ a:hover {
     width: 15em;
     margin: auto;
     margin-left: 15%;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
     border-radius: 10px;
     box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
     overflow: hidden;
@@ -181,6 +181,20 @@ a:hover {
 .project-image {
     width: 100%;
     border-radius: 10px;
+}
+
+.portfolio-title-left {
+    width: 15em;
+    margin: auto;
+    margin-right: 15%;
+    margin-bottom: 5em;
+}
+
+.portfolio-title-right {
+    width: 15em;
+    margin: auto;
+    margin-left: 15%;
+    margin-bottom: 5em;
 }
 
 /* About section */
