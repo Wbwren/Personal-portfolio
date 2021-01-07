@@ -124,7 +124,7 @@ nav li:hover::after {
 
 a:hover {
     text-decoration: none;
-    color: red;
+    color: #c5c6c7;
 }
 
 /* Intro section */
