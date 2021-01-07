@@ -1,9 +1,9 @@
 /* General styles */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap");
 
 body {
     color: #c5c6c7;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-weight: 100;
     background-color: #1f2833;
     max-width: 2000px;
@@ -135,7 +135,7 @@ nav a {
 }
  
 nav li::after {
-    content: '';
+    content: "";
     height: 10px;
     width: 0;
     border-radius: 30%;
