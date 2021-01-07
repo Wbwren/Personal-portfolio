@@ -214,6 +214,7 @@ a:hover {
 /* Intro section */
 #intro-section {
     height: 600px;
+    margin-bottom: 2rem;
 }
 
 .hero-image {
