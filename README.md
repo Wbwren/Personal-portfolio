@@ -45,6 +45,8 @@ The website has the following sections:
 
 * As the website owner, I want a simple to use website that allows me to easily showcase my lastest projects to others.
 
+* As the website owner, I don't want users to be able to spam my email inbox or submit an empty form.
+
 ### Strategy
 __Goal__: Create a website to showcase my software development skills to potential employers and facilitate collaboration with other developers. 
 
