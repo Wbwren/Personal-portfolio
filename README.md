@@ -35,13 +35,15 @@ The website has the following sections:
 ## UX
 
 ### User stories
-As an employer, I want to be able to gain a good understanding of the applicant's ability and suitability for a given role.
+* As an employer, I want to gain a good understanding of the applicant's ability and suitability for a given role.
 
-As an employer, I want to see a well designed and visually appealing website that demonstrates the technical ability of the applicant.
+* As an employer, I want to see a well designed and visually appealing website that demonstrates the technical ability of the applicant.
 
-As an employer, I want to see the applicants strengths to assess which role the applicant is best suited to.
+* As an employer, I want to see the applicants strengths to assess which role the applicant is best suited to.
 
-As a software engineer, I want to gain an understanding of the interests and goals of the person to see if collaborate with like-minded people.
+* As a software engineer, I want to gain an understanding of the interests, strengths and goals of the portfolio owner to assess whether a collaboration may be possible.
+
+* As the website owner, I want a simple to use website that allows me to easily showcase my lastest projects to others.
 
 ### Strategy
 __Goal__: Create a website to showcase my software development skills to potential employers and facilitate collaboration with other developers. 
