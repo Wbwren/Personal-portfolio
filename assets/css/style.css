@@ -8,6 +8,7 @@ body {
     background-color: #1f2833;
     max-width: 2000px;
     margin: auto;
+    font-size: 1.1rem;
 }
 
 h1 {
@@ -33,6 +34,24 @@ h3 {
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-12 {
+    padding: 0;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    margin: auto;
 }
 
 /* Styiling for section headings */
@@ -127,7 +146,7 @@ a:hover {
     color: #c5c6c7;
 }
 
-@media only screen and (max-width: 865px) {
+@media only screen and (max-width: 1000px) {
     .nav-item {
         font-size: 80%;
     }
@@ -138,7 +157,7 @@ a:hover {
 
 }
 
-@media only screen and (max-width: 745px) {
+@media only screen and (max-width: 850px) {
     .nav-item {
         font-size: 60%;
     }
@@ -148,6 +167,15 @@ a:hover {
     }
 }
 
+@media only screen and (max-width: 680px) {
+    .nav-item {
+        font-size: 50%;
+    }
+
+    #logo-image {
+        width: 50px;
+    }
+}
 @media only screen and (max-width: 575px) {
     .nav-list {
         padding: 2% 2%;
@@ -156,7 +184,7 @@ a:hover {
 }
     
     .nav-item {
-        width: 50px;
+        width: 100px;
         height: 5px;
         font-size: 10px;
         text-transform: uppercase;
@@ -187,21 +215,21 @@ a:hover {
 #portrait {
     width: 70%;
     max-width: 350px;
+    min-width: 150px;
     border: solid 1px #66fcf1;
     border-radius: 50%;
-}
-
-#portrait-span {
-    margin-left: 20%;
+    align-items: center;
+    display: block;
+    margin: auto;
 }
 
 /* Projects section */
 #portfolio-section {
-    height: 600px;
+    height: 690px;
 }
 
 .project-image-col-1 {
-    height: 150px;
+    height: 195px;
     border: solid 2px #66fcf1;
     width: 15em;
     margin: auto;
@@ -213,7 +241,7 @@ a:hover {
 }
 
 .project-image-col-2 {
-    height: 150px;
+    height: 195px;
     border: solid 2px #66fcf1;
     width: 15em;
     margin: auto;
@@ -241,6 +269,45 @@ a:hover {
     margin: auto;
     margin-left: 15%;
     margin-bottom: 5em;
+}
+
+@media only screen and (max-width: 991px) {
+    #portfolio-section {
+        height: 1375px;
+        text-align: center;
+    }
+
+    .project-image-col-1 {
+        height: 150px;
+        border: solid 2px #66fcf1;
+        width: 12em;
+        margin: auto;
+        margin-bottom: 2em;
+        border-radius: 10px;
+        box-shadow: none;
+        overflow: hidden;
+    }
+
+    .project-image-col-2 {
+        height: 150px;
+        border: solid 2px #66fcf1;
+        width: 12em;
+        margin: auto;
+        margin-bottom: 2em;
+        border-radius: 10px;
+        box-shadow: none;
+        overflow: hidden;
+    }
+
+    .portfolio-title-left {
+        margin: auto;
+        margin-bottom: 5em;
+    }
+
+.portfolio-title-right {
+        margin: auto;
+        margin-bottom: 5em;
+    }
 }
 
 /* About section */
@@ -282,6 +349,7 @@ a:hover {
 .resume-container {
     margin: auto;
     width: 100%;
+    min-width: 200px;
 }
 
 .resume-container div {
@@ -322,27 +390,61 @@ a:hover {
     margin-top: 3rem;
 }
 
+@media only screen and (max-width: 991px) {
+    #about-section{
+        height: 1200px;
+    }
+
+    .resume-container{
+        text-align: center;
+    }
+
+    .resume-container h3 {
+        text-align: center;
+    }
+
+    .tech-list {
+        border: none;
+}
+}
+
 /* Testimonials section */
 
 #testimonials-section {
     height: 600px;
 }
 
-#testimonials-section p {
+#testimonials {
+    display: block;
     margin: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+#testimonials-section p {
+    width: 100%;
     max-width: 1000px;
     margin-bottom: 3rem;
 }
 
 #testimonials-section h4 {
     width: 100%;
-    margin: auto;
     margin-bottom: 1rem;
     max-width: 1000px;
 }
 
 .referee-title {
     color: #66fcf1;
+}
+
+@media only screen and (max-width: 550px) {
+    #testimonials-section {
+        height: 735px;
+    }
+    
+    #testimonials {
+        min-width: 290px;
+    }
 }
 
 /* Interests and hobbies section */
@@ -368,8 +470,9 @@ a:hover {
 
 form {
     padding: 40px;
-    width: 30%;
+    width: 40%;
     margin: auto;
+    min-width: 290px;
 }
 
 .form input {
@@ -410,6 +513,12 @@ form {
 .button-container {
     text-align: center;
     margin-top: 1rem;
+}
+
+@media only screen and (max-width: 390px) {
+    form {
+        padding: 0;
+    }
 }
 
 /* Footer */
