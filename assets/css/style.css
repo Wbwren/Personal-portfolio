@@ -1,10 +1,6 @@
 /* General styles */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
 
-* {
-    outline: solid 1px yellow;
-}
-
 body {
     color: #c5c6c7;
     font-family: 'Roboto Slab', serif;
@@ -287,7 +283,7 @@ a:hover {
 
 @media only screen and (max-width: 991px) {
     #portfolio-section {
-        height: 1375px;
+        height: 1250px;
         text-align: center;
     }
 
