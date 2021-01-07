@@ -1,6 +1,10 @@
 /* General styles */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
 
+* {
+    outline: solid 1px yellow;
+}
+
 body {
     color: #c5c6c7;
     font-family: 'Roboto Slab', serif;
@@ -52,6 +56,14 @@ main {
 
 html {
     margin: auto;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.col {
+    padding: 0;
 }
 
 /* Styiling for section headings */
@@ -351,13 +363,17 @@ a:hover {
 .resume-container {
     margin: auto;
     margin-left: 10%;
-    width: 100%;
+    width: 80%;
     min-width: 200px;
 }
 
 .resume-container div {
     width: 40%;
     margin: auto;
+}
+
+.resume-container h3 {
+    width: 80%;
 }
 
 .resume-list {
@@ -372,6 +388,9 @@ a:hover {
 
 .resume-list li {
     margin-bottom: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 
 .about-cv {
