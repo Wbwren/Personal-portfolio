@@ -486,6 +486,7 @@ a:hover {
 /* Contact section */
 #contact-section {
     height: 600px;
+    margin-bottom: 2rem;
 }
 
 form {
@@ -538,6 +539,7 @@ form {
 @media only screen and (max-width: 390px) {
     form {
         padding: 0;
+        padding-top: 40px;
     }
 }
 
