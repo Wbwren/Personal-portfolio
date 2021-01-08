@@ -475,7 +475,9 @@ a:hover {
 #interests-hobbies div ul li {
     list-style-type: none;
     margin: 30px;
-
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 3rem;
 }
 
 /* Contact section */
