@@ -51,13 +51,7 @@ The website has the following sections:
 __Goal__: Create a website to showcase my software development skills to potential employers and facilitate collaboration with other developers. 
 
 ### Scope
-Static website containing a personal bio, projects, interests, work history, strengths and a downloadable resume.
-
-### Stucture 
-### Skeleton
-### Surface
-
-### Design
+* Static website containing a personal bio, projects, interests, work history, strengths and a downloadable resume.
 
 #### Colour Scheme
 * #c5c6c7 - font color
@@ -70,13 +64,14 @@ Static website containing a personal bio, projects, interests, work history, str
 * A font-weight of 300, 200, 200 and 100 is used on the h1s, h2s, h3s and body element, respectively.
 
 #### Imagery
+* Images were tinted blue in Microsoft PowerPoint to match the body background color.
 
 ### Wireframes
-[Mobile View](https://github.com/Wbwren/personal-portfolio/blob/master/wireframes/mobile-wireframe.png)
-[Tablet View](https://github.com/Wbwren/personal-portfolio/blob/master/wireframes/tablet-wireframe.png)
-[Desktop View](https://github.com/Wbwren/personal-portfolio/blob/master/wireframes/desktop-wireframe.png)
+* [Mobile View](https://github.com/Wbwren/personal-portfolio/blob/master/wireframes/mobile-wireframe.png)
 
-## Features
+* [Tablet View](https://github.com/Wbwren/personal-portfolio/blob/master/wireframes/tablet-wireframe.png)
+
+* [Desktop View](https://github.com/Wbwren/personal-portfolio/blob/master/wireframes/desktop-wireframe.png)
 
 ## Technologies Used
 ### Languages used
@@ -103,7 +98,7 @@ Static website containing a personal bio, projects, interests, work history, str
 
 * The website has been tested on an iPhone 5, Samsung Galaxy s10, Acer swift 3 and a desktop PC with a 1080p and 4k monitor. All sections were assessed on each device to ensure each section was fully functioning.
 
-* W3C Markup and CSS validation services were used to test code valididty. Errors were idetified and subsequtely rectified.
+* W3C Markup and CSS validation services were used to test code validity. Errors were identified and subsequently rectified.
 
 * The website [Am I Responsive](http://ami.responsivedesign.is/) was also used as seen below.
 
@@ -115,9 +110,9 @@ Static website containing a personal bio, projects, interests, work history, str
 ### Functionality test
 | Num | Test          | Action | Test result |
 | ---|:-------------:| :----: | :-----:|
-| 1 | Navigation items take user to relevent section | Click each navigation item on desktop, tablet and mobile screen sizes  | Passed |
-| 2 | Mobile navigation drop down button displays navigation list when selected | Click navigation bar dropdown icon | Passed
-| 3 | Project section images direct user to github when selected | Click each project image at various screen resolutions | Passed
+| 1 | Navigation items take the user to relevant section | Click each navigation item on the desktop, tablet and mobile screen sizes  | Passed |
+| 2 | Mobile navigation drop-down button displays navigation list when selected | Click navigation bar dropdown icon | Passed
+| 3 | Project section images direct user to GitHub when selected | Click each project image at various screen resolutions | Passed
 | 4 | Both Download resume links open a new browser window and display cv.pdf | Click on both resume download links | Passed
 
 | Num | Browser         | Test result |
@@ -143,7 +138,7 @@ Static website containing a personal bio, projects, interests, work history, str
 
 8. Then use the command 'git commit -m"[enter commit title here]"'
 
-9. All meaningful changes to the code should have there own commit
+9. All meaningful changes to the code should have its own commit
 
 10. To push the commits to Github use the command 'git push'
 
@@ -168,7 +163,7 @@ Static website containing a personal bio, projects, interests, work history, str
 
 3. In the Clone with HTTPs section, click the 'copy' icon.
 
-4. In your local Integreated Development Environment open Git Bash.
+4. In your local Integrated Development Environment open Git Bash.
 
 5. Change the current working directory to where you want the cloned directory to be located.
 
@@ -178,7 +173,7 @@ Static website containing a personal bio, projects, interests, work history, str
 
 ## Credits
 ### Ackknowledgments
-* [Stackoverflow](https://stackoverflow.com/) as a resouce for learning and troubleshooting.
+* [Stackoverflow](https://stackoverflow.com/) as a resource for learning and troubleshooting.
 * Thank you to Alex Knight, Daria Nepriakhina, Possessed Photography and Jesper Aggergaard on [Unsplash](https://unsplash.com/) for the images.
-* [Kevin Powell's YouTube channel](https://www.youtube.com/user/KepowOb) for css tips and tricks.
-* A special thank you to my mentor Brian Macharia for being so genourous with his time and provding excellent guidence throughout the process.
+* [Kevin Powell's YouTube channel](https://www.youtube.com/user/KepowOb) for CSS tips and tricks.
+* A special thank you to my mentor Brian Macharia for being so generous with his time and providing excellent guidance throughout the process.
