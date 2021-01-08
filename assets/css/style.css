@@ -163,7 +163,7 @@ nav li::after {
     -webkit-transition: all ease-in-out 1000ms;
     -o-transition: all ease-in-out 1000ms;
     transition: all ease-in-out 1000ms;
-    
+
     /* Stops junk pixels being left behind after hover animation */
     outline: 2px solid transparent;
 }
@@ -260,6 +260,13 @@ a:hover {
     display: block;
     margin: auto;
 }
+
+@media only screen and (max-width: 1253px) {
+    .dark-box {
+        background-color: rgba(31, 40, 51, 0.8);
+    }
+}
+
 
 /* Projects section */
 #portfolio-section {
