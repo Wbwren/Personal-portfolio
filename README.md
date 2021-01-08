@@ -61,7 +61,7 @@ The website has the following sections:
 __Goal__: Create a website to showcase my software development skills to potential employers and facilitate collaboration with other developers. 
 
 ### Scope
-* Static website containing a personal bio, projects, interests, work history, strengths and a downloadable resume.
+* Static website containing a personal bio, projects, interests, strengths and a downloadable resume.
 
 #### Colour Scheme
 * #c5c6c7 - font color
@@ -104,7 +104,7 @@ __Goal__: Create a website to showcase my software development skills to potenti
 ## Testing
 * Throughout the development process, Chrome developer tools were used to assess each change.
 
-* Using Chrome developer tools a wide variety of device sizes and resolutions were tested.
+* Using Chrome developer tools, a wide variety of device sizes and resolutions were tested.
 
 * The website has been tested on an iPhone 5, Samsung Galaxy s10, Acer swift 3 and a desktop PC with a 1080p and 4k monitor. All sections were assessed on each device to ensure each section was fully functioning.
 
