@@ -326,7 +326,8 @@ a:hover {
         overflow: hidden;
     }
 
-    .portfolio-title-left {
+    .portfolio-title-left,
+    .portfolio-title-right {
         margin: auto;
         margin-bottom: 5em;
     }
