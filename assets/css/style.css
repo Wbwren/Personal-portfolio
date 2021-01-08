@@ -439,6 +439,7 @@ a:hover {
 .about-cv-container {
     text-align: center;    
     margin-top: 3rem;
+    margin-bottom: 4rem;
 }
 
 @media only screen and (max-width: 991px) {
@@ -523,6 +524,7 @@ a:hover {
 
 form {
     padding: 40px;
+    padding-top: 0;
     width: 40%;
     margin: auto;
     min-width: 290px;
