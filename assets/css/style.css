@@ -75,6 +75,10 @@ html {
     padding: 0;
 }
 
+.col-2 {
+    margin: auto;
+}
+
 /* Styiling for section headings */
 span {
     width: 100%;
