@@ -9,8 +9,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap");
 
 :root {
-  --main-font-color: #c5c6c7;
-  --highlight-color: #66fcf1;
+    --main-font-color: #c5c6c7;
+    --highlight-color: #66fcf1;
 }
 
 body {
@@ -35,7 +35,8 @@ h2 {
     color: var(--highlight-color);
 }
 
-h3, h4 {
+h3,
+h4 {
     margin: auto;
     margin-bottom: 2rem;
     text-align: center;
@@ -66,7 +67,8 @@ main {
 }
 
 html {
-    margin: auto; /* Fixes side scroll at some resolutions */
+    margin: auto;
+    /* Fixes side scroll at some resolutions */
 }
 
 ul,
@@ -93,11 +95,11 @@ nav {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin: 0;
     width: 100%;
 }
@@ -111,7 +113,7 @@ nav {
     border: solid 1px var(--highlight-color);
     border-radius: 10px;
     -webkit-box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
-            box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
+    box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
 }
 
 nav a {
@@ -122,13 +124,13 @@ nav a {
     display: inline-block;
     margin-right: auto;
     -webkit-box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
-            box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
+    box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
 }
 
 #logo-image {
     width: 110px;
 }
- 
+
 nav li::after {
     content: "";
     height: 10px;
@@ -157,7 +159,7 @@ a:hover {
     .nav-item {
         font-size: 80%;
     }
-    
+
     #logo-image {
         width: 90px;
     }
@@ -183,13 +185,14 @@ a:hover {
         width: 50px;
     }
 }
+
 @media only screen and (max-width: 575px) {
     .nav-list {
         padding: 2% 2%;
         display: block;
         margin-bottom: 2rem;
-}
-    
+    }
+
     .nav-item {
         width: 100px;
         height: 5px;
@@ -199,7 +202,7 @@ a:hover {
         border: none;
         border-radius: 10px;
         -webkit-box-shadow: none;
-                box-shadow: none;
+        box-shadow: none;
         padding: 1rem;
         text-align: left;
         display: block;
@@ -230,8 +233,8 @@ a:hover {
     border: solid 1px var(--highlight-color);
     border-radius: 50%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     display: block;
     margin: auto;
 }
@@ -253,7 +256,7 @@ a:hover {
     margin-bottom: 2em;
     border-radius: 10px;
     -webkit-box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
-            box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
+    box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
     overflow: hidden;
 }
 
@@ -266,7 +269,7 @@ a:hover {
     margin-bottom: 2em;
     border-radius: 10px;
     -webkit-box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
-            box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
+    box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
     overflow: hidden;
 }
 
@@ -307,7 +310,7 @@ a:hover {
         margin-bottom: 2em;
         border-radius: 10px;
         -webkit-box-shadow: none;
-                box-shadow: none;
+        box-shadow: none;
         overflow: hidden;
     }
 
@@ -319,7 +322,7 @@ a:hover {
         margin-bottom: 2em;
         border-radius: 10px;
         -webkit-box-shadow: none;
-                box-shadow: none;
+        box-shadow: none;
         overflow: hidden;
     }
 
@@ -409,13 +412,13 @@ a:hover {
 }
 
 .about-cv-container {
-    text-align: center;    
+    text-align: center;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
 
 @media only screen and (max-width: 991px) {
-    .resume-container{
+    .resume-container {
         text-align: center;
         margin: auto;
     }
@@ -426,7 +429,7 @@ a:hover {
 
     .tech-list {
         border: none;
-}
+    }
 }
 
 /* Testimonials section */
