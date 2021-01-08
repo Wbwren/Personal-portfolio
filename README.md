@@ -173,3 +173,10 @@ https://github.com/Wbwren/personal-portfolio/blob/master/assets/wireframes/wiref
 6. Type 'git clone', and paste the URL you copied before.
 
 7. Press enter and your local clone will be available.
+
+## Credits
+### Ackknowledgments
+* [Stackoverflow](https://stackoverflow.com/) as a resouce for learning and troubleshooting.
+* Thank you to Alex Knight, Daria Nepriakhina, Possessed Photography and Jesper Aggergaard on [Unsplash](https://unsplash.com/) for the images.
+* [Kevin Powell's YouTube channel](https://www.youtube.com/user/KepowOb) for css tips and tricks.
+* A special thank you to my mentor Brian Macharia for being so genourous with his time and provding excellent guidence throughout the process.
