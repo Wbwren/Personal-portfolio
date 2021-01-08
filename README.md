@@ -2,12 +2,6 @@
 A well designed, visually pleasing and informative website to demonstrate to employers my suitability for a 
 developer role and provide a means for other developers to collaborate. 
 
-![alt text](responsive-layout-images/desktop.png "Logo Title Text 1") 
-![alt text](responsive-layout-images/laptop.png "Logo Title Text 1")
-![alt text](responsive-layout-images/tablet.png "Logo Title Text 1")
-![alt text](responsive-layout-images/mobile.png "Logo Title Text 1")
-
-
 ## Project purpose
 The purpose of this website was to showcase my skills and portfolio to potential employers and collaborators.
 The site itself is a demonstration of my ability to write HTML and CSS. 
@@ -99,3 +93,27 @@ https://github.com/Wbwren/personal-portfolio/blob/master/assets/wireframes/wiref
 * [Microsoft Word](https://office.live.com/start/word.aspx)
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 * [AutoPrefixer](https://autoprefixer.github.io/)
+
+## Testing
+* Throughout the development process, Chrome developer tools were used to assess each change.
+
+* Using Chrome developer tools a wide variety of device sizes and resolutions were tested.
+
+* The website has been tested on an iPhone 5, Samsung Galaxy s10, Acer swift 3 and a desktop PC with a 1080p and 4k monitor. All sections were assessed on each device to ensure each section was fully functioning.
+
+* W3C Markup and CSS validation services were used to test code valididty. Errors were idetified and subsequtely rectified.
+
+* The website [Am I Responsive](http://ami.responsivedesign.is/) was also used as seen below.
+
+![alt text](responsive-layout-images/desktop.png "Logo Title Text 1") 
+![alt text](responsive-layout-images/laptop.png "Logo Title Text 1")
+![alt text](responsive-layout-images/tablet.png "Logo Title Text 1")
+![alt text](responsive-layout-images/mobile.png "Logo Title Text 1")
+
+## Functionality test
+| Num | Test          | Action | Test result |
+| ---|:-------------:| :----: | :-----:| :-----:| :-----:|
+| 1 | Navigation items take user to relevent section | Click each navigation item on desktop, tablet and mobile screen sizes  | Passed |
+| 2 | Mobile navigation drop down button displays navigation list when selected | Click navigation bar dropdown icon | Passed
+| 3 | Project section images direct user to github when selected | Click each project image at various screen resolutions | Passed
+| 4 | Both Download resume links open a new browser window and display cv.pdf | Click on both resume download links | Passed
