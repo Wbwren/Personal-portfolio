@@ -470,6 +470,7 @@ a:hover {
 
 #interests-hobbies div ul {
     padding: 0;
+    margin: 0 5%;
 }
 
 #interests-hobbies div ul li {
@@ -478,6 +479,16 @@ a:hover {
     max-width: 1000px;
     margin: auto;
     margin-bottom: 3rem;
+}
+
+.interest-heading {
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--highlight-color);
+    display: block;
 }
 
 /* Contact section */
