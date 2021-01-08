@@ -35,17 +35,27 @@ The website has the following sections:
 ## UX
 
 ### User stories
-* As an employer, I want to gain a good understanding of the applicant's ability and suitability for a given role.
 
 * As an employer, I want to see a well designed and visually appealing website that demonstrates the technical ability of the applicant.
 
+    * This need was fulfilled through the website itself demonstrating the applicant's technical ability.
+
 * As an employer, I want to see the applicants strengths to assess which role the applicant is best suited to.
+
+    * The expertise section lists what the applicant believes to be his strengths.
 
 * As a software engineer, I want to gain an understanding of the interests, strengths and goals of the portfolio owner to assess whether a collaboration may be possible.
 
+    * The website designer covered their interests, strengths and future project plans.
+
 * As the website owner, I want a simple to use website that allows me to easily showcase my lastest projects to others.
 
-* As the website owner, I don't want users to be able to spam my email inbox or submit an empty form.
+    * Adding additional projects to the website will be an easy process due to the simplistic column layout of the project images.
+
+* As the website owner, I don't want users to be able to submit an empty form.
+
+    * This need was met by giving the 'required' attribute to the form input elements.
+
 
 ### Strategy
 __Goal__: Create a website to showcase my software development skills to potential employers and facilitate collaboration with other developers. 
