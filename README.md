@@ -117,3 +117,9 @@ https://github.com/Wbwren/personal-portfolio/blob/master/assets/wireframes/wiref
 | 2 | Mobile navigation drop down button displays navigation list when selected | Click navigation bar dropdown icon | Passed
 | 3 | Project section images direct user to github when selected | Click each project image at various screen resolutions | Passed
 | 4 | Both Download resume links open a new browser window and display cv.pdf | Click on both resume download links | Passed
+
+| Num | Browser         | Test result |
+| ---|:-------------:| :----: |
+| 1 | Chrome | Passed
+| 2 | Opera | Passed
+| 3 | Mozzilla | Passed
