@@ -102,9 +102,15 @@ nav {
 
 .nav-list {
     padding: 2% 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0;
     width: 100%;
 }
@@ -117,7 +123,8 @@ nav {
     padding: 1%;
     border: solid 1px #66fcf1;
     border-radius: 10px;
-    box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
+    -webkit-box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
+            box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
 }
 
 nav a {
@@ -127,7 +134,8 @@ nav a {
 #logo-container {
     display: inline-block;
     margin-right: auto;
-    box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
+    -webkit-box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
+            box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
 }
 
 #logo-image {
@@ -141,6 +149,8 @@ nav li::after {
     border-radius: 30%;
     display: block;
     background-color: red;
+    -webkit-transition: all ease-in-out 1000ms;
+    -o-transition: all ease-in-out 1000ms;
     transition: all ease-in-out 1000ms;
 }
 
@@ -199,7 +209,8 @@ a:hover {
         text-transform: uppercase;
         border: none;
         border-radius: 10px;
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
         padding: 1rem;
         text-align: left;
         display: block;
@@ -229,7 +240,9 @@ a:hover {
     min-width: 150px;
     border: solid 1px #66fcf1;
     border-radius: 50%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     display: block;
     margin: auto;
 }
@@ -247,7 +260,8 @@ a:hover {
     margin-right: 15%;
     margin-bottom: 2em;
     border-radius: 10px;
-    box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
+    -webkit-box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
+            box-shadow: 10px 10px, 8px 8px, 6px 6px, 4px 4px, 2px 2px;
     overflow: hidden;
 }
 
@@ -259,7 +273,8 @@ a:hover {
     margin-left: 15%;
     margin-bottom: 2em;
     border-radius: 10px;
-    box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
+    -webkit-box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
+            box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
     overflow: hidden;
 }
 
@@ -295,7 +310,8 @@ a:hover {
         margin: auto;
         margin-bottom: 2em;
         border-radius: 10px;
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
         overflow: hidden;
     }
 
@@ -306,7 +322,8 @@ a:hover {
         margin: auto;
         margin-bottom: 2em;
         border-radius: 10px;
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
         overflow: hidden;
     }
 
