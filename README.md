@@ -110,7 +110,7 @@ https://github.com/Wbwren/personal-portfolio/blob/master/assets/wireframes/wiref
 ![alt text](responsive-layout-images/tablet.png "Logo Title Text 1")
 ![alt text](responsive-layout-images/mobile.png "Logo Title Text 1")
 
-## Functionality test
+### Functionality test
 | Num | Test          | Action | Test result |
 | ---|:-------------:| :----: | :-----:| :-----:| :-----:|
 | 1 | Navigation items take user to relevent section | Click each navigation item on desktop, tablet and mobile screen sizes  | Passed |
@@ -123,3 +123,53 @@ https://github.com/Wbwren/personal-portfolio/blob/master/assets/wireframes/wiref
 | 1 | Chrome | Passed
 | 2 | Opera | Passed
 | 3 | Mozzilla | Passed
+
+## Deployment to Github Pages
+1. Create a Github account at [github.com](https://github.com/)
+
+2. Click on the 'New' button in the top left corner
+
+3. Enter a name for the repository, check the 'Add a README file' box
+
+4. Click 'Create repository'
+
+5. Open the repository in Gitpod
+
+6. Save changes by clicking the save button
+
+7. Once a feature has been successfully created using the 'git add .' command to stage the changes made
+
+8. Then use the command 'git commit -m"[enter commit title here]"'
+
+9. All meaningful changes to the code should have there own commit
+
+10. To push the commits to Github use the command 'git push'
+
+11. Once the website is ready for deployment return to [github.com](https://github.com/)
+
+12. Click on the 'settings' tab
+
+13. Scroll down to the 'GitHub Pages' section
+
+14. Click the 'None' dropdown button
+
+15. Select the master branch
+
+16. Click save
+
+17. After a few minutes, the site will be published to GitHub pages and can be accessed using the URL at the GitHub Pages section
+
+## Clone
+1. Follow this link to my [Github Repository](https://github.com/Wbwren/personal-portfolio) and open it.
+
+2. Click 'Clone or Download'.
+
+3. In the Clone with HTTPs section, click the 'copy' icon.
+
+4. In your local Integreated Development Environment open Git Bash.
+
+5. Change the current working directory to where you want the cloned directory to be located.
+
+6. Type 'git clone', and paste the URL you copied before.
+
+7. Press enter and your local clone will be available.
