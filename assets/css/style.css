@@ -300,6 +300,11 @@ a:hover {
     overflow: hidden;
 }
 
+.project-image-col-1:hover,
+.project-image-col-2:hover {
+    border-color: red;
+}
+
 .project-image {
     width: 100%;
     border-radius: 10px;
