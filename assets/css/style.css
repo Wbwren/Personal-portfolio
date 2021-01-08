@@ -158,12 +158,14 @@ nav li::after {
     content: "";
     height: 10px;
     width: 0;
-    border-radius: 30%;
     display: block;
     background-color: red;
     -webkit-transition: all ease-in-out 1000ms;
     -o-transition: all ease-in-out 1000ms;
     transition: all ease-in-out 1000ms;
+    
+    /* Stops junk pixels being left behind after hover animation */
+    outline: 2px solid transparent;
 }
 
 nav li:hover::after {
