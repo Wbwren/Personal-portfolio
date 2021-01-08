@@ -108,14 +108,18 @@ __Goal__: Create a website to showcase my software development skills to potenti
 
 * The website has been tested on an iPhone 5, Samsung Galaxy s10, Acer swift 3 and a desktop PC with a 1080p and 4k monitor. All sections were assessed on each device to ensure each section was fully functioning.
 
-* W3C Markup and CSS validation services were used to test code validity. Errors were identified and subsequently rectified.
-
 * The website [Am I Responsive](http://ami.responsivedesign.is/) was also used as seen below.
 
 ![alt text](responsive-layout-images/desktop.png "Logo Title Text 1") 
 ![alt text](responsive-layout-images/laptop.png "Logo Title Text 1")
 ![alt text](responsive-layout-images/tablet.png "Logo Title Text 1")
 ![alt text](responsive-layout-images/mobile.png "Logo Title Text 1")
+
+### Code Validation
+
+* CSS was validated using W3C CSS Validation Service - Jigsaw
+
+* HTML was validated using W3C Markup Validation Service.
 
 ### Functionality test
 | Num | Test          | Action | Test result |
