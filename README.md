@@ -186,7 +186,7 @@ __Goal__: Create a website to showcase my software development skills to potenti
 7. Press enter and your local clone will be available.
 
 ## Credits
-### Ackknowledgments
+### Acknowledgments
 * [Stackoverflow](https://stackoverflow.com/) as a resource for learning and troubleshooting.
 * Thank you to Alex Knight, Daria Nepriakhina, Possessed Photography and Jesper Aggergaard on [Unsplash](https://unsplash.com/) for the images.
 * [Kevin Powell's YouTube channel](https://www.youtube.com/user/KepowOb) for CSS tips and tricks.
