@@ -258,10 +258,6 @@ a:hover {
 
 
 /* Projects section */
-#portfolio-section {
-    /* height: 800px; */
-}
-
 .project-image-col-1 {
     height: 195px;
     border: solid 2px var(--highlight-color);
@@ -314,7 +310,6 @@ a:hover {
 
 @media only screen and (max-width: 991px) {
     #portfolio-section {
-        /* height: 1250px; */
         text-align: center;
     }
 
@@ -354,10 +349,6 @@ a:hover {
 }
 
 /* About section */
-#about-section {
-    /* height: 700px; */
-}
-
 #about-section h4 {
     margin-bottom: 2rem;
 }
@@ -443,10 +434,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 991px) {
-    #about-section{
-        /* height: 1200px; */
-    }
-
     .resume-container{
         text-align: center;
         margin: auto;
@@ -462,11 +449,6 @@ a:hover {
 }
 
 /* Testimonials section */
-
-#testimonials-section {
-    /* height: 600px; */
-}
-
 #testimonials {
     display: block;
     margin: auto;
@@ -491,10 +473,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 550px) {
-    #testimonials-section {
-        /* height: 735px; */
-    }
-    
     #testimonials {
         min-width: 290px;
     }
