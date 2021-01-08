@@ -546,10 +546,12 @@ form {
     border-color: var(--highlight-color);
     width: 100%;
     border-radius: 5px;
+    color: var(--main-font-color);
+
 }
 
 .form input:hover {
-    color: var(--main-font-color);
+    border-color: var(--main-font-color);
 }
 
 #message {
