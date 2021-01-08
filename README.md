@@ -112,7 +112,7 @@ https://github.com/Wbwren/personal-portfolio/blob/master/assets/wireframes/wiref
 
 ### Functionality test
 | Num | Test          | Action | Test result |
-| ---|:-------------:| :----: | :-----:| :-----:| :-----:|
+| ---|:-------------:| :----: | :-----:|
 | 1 | Navigation items take user to relevent section | Click each navigation item on desktop, tablet and mobile screen sizes  | Passed |
 | 2 | Mobile navigation drop down button displays navigation list when selected | Click navigation bar dropdown icon | Passed
 | 3 | Project section images direct user to github when selected | Click each project image at various screen resolutions | Passed
