@@ -2,6 +2,12 @@
 A well designed, visually pleasing and informative website to demonstrate to employers my suitability for a 
 developer role and provide a means for other developers to collaborate. 
 
+![alt text](responsive-layout-images/desktop.png "Logo Title Text 1") 
+![alt text](responsive-layout-images/laptop.png "Logo Title Text 1")
+![alt text](responsive-layout-images/tablet.png "Logo Title Text 1")
+![alt text](responsive-layout-images/mobile.png "Logo Title Text 1")
+
+
 ## Project purpose
 The purpose of this website was to showcase my skills and portfolio to potential employers and collaborators.
 The site itself is a demonstration of my ability to write HTML and CSS. 
@@ -82,9 +88,14 @@ https://github.com/Wbwren/personal-portfolio/blob/master/assets/wireframes/wiref
 * CSS3
 
 ### Frameworks, Libraries & Programs Used
-* Bootstrap
-* Google Fonts
-* Font Awesome
-* Git
-* Github
-* Balsamiq
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Git](https://git-scm.com/)
+* [Github](https://github.com/)
+* [Gitpod](https://www.gitpod.io/)
+* [Balsamiq Wireframes](https://balsamiq.com/wireframes/)
+* [Microsoft PowerPoint](https://office.live.com/start/powerpoint.aspx)
+* [Microsoft Word](https://office.live.com/start/word.aspx)
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+* [AutoPrefixer](https://autoprefixer.github.io/)
