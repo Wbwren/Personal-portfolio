@@ -8,8 +8,13 @@
 /* General styles */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap");
 
+:root {
+  --main-font-color: #c5c6c7;
+  --highlight-color: #66fcf1;
+}
+
 body {
-    color: #c5c6c7;
+    color: var(--main-font-color);
     font-family: "Roboto Slab", serif;
     font-weight: 100;
     background-color: #1f2833;
@@ -19,7 +24,7 @@ body {
 }
 
 h1 {
-    color: #c5c6c7;
+    color: var(--main-font-color);
     font-weight: 300;
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -27,14 +32,14 @@ h1 {
 
 h2 {
     font-weight: 200;
-    color: #66fcf1;
+    color: var(--highlight-color);
 }
 
 h3 {
     margin: auto;
     text-align: center;
     font-weight: 200;
-    color: #66fcf1;
+    color: var(--highlight-color);
     display: block;
 }
 
@@ -79,7 +84,7 @@ span {
 }
 
 hr {
-    border-color: #66fcf1;
+    color: var(--highlight-color);
     border-width: thin;
     margin: 5px;
 }
@@ -104,7 +109,7 @@ hr {
 
 /* Navbar */
 nav {
-    border-bottom: solid 1px #66fcf1;
+    border-bottom: solid 1px var(--highlight-color);
 }
 
 .nav-list {
@@ -128,14 +133,14 @@ nav {
     text-transform: uppercase;
     margin: 0 2%;
     padding: 1%;
-    border: solid 1px #66fcf1;
+    border: solid 1px var(--highlight-color);
     border-radius: 10px;
     -webkit-box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
             box-shadow: -10px 10px, -8px 8px, -6px 6px, -4px 4px, -2px 2px;
 }
 
 nav a {
-    color: #c5c6c7;
+    color: var(--main-font-color);
 }
 
 #logo-container {
@@ -168,7 +173,7 @@ nav li:hover::after {
 
 a:hover {
     text-decoration: none;
-    color: #c5c6c7;
+    color: var(--main-font-color);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -245,7 +250,7 @@ a:hover {
     width: 70%;
     max-width: 350px;
     min-width: 150px;
-    border: solid 1px #66fcf1;
+    border: solid 1px var(--highlight-color);
     border-radius: 50%;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -261,7 +266,7 @@ a:hover {
 
 .project-image-col-1 {
     height: 195px;
-    border: solid 2px #66fcf1;
+    border: solid 2px var(--highlight-color);
     width: 15em;
     margin: auto;
     margin-right: 15%;
@@ -274,7 +279,7 @@ a:hover {
 
 .project-image-col-2 {
     height: 195px;
-    border: solid 2px #66fcf1;
+    border: solid 2px var(--highlight-color);
     width: 15em;
     margin: auto;
     margin-left: 15%;
@@ -312,7 +317,7 @@ a:hover {
 
     .project-image-col-1 {
         height: 150px;
-        border: solid 2px #66fcf1;
+        border: solid 2px var(--highlight-color);
         width: 12em;
         margin: auto;
         margin-bottom: 2em;
@@ -324,7 +329,7 @@ a:hover {
 
     .project-image-col-2 {
         height: 150px;
-        border: solid 2px #66fcf1;
+        border: solid 2px var(--highlight-color);
         width: 12em;
         margin: auto;
         margin-bottom: 2em;
@@ -377,8 +382,8 @@ a:hover {
 
 .tech-list {
     text-align: center;
-    border-right: solid 5px #66fcf1;
-    color: #66fcf1;
+    border-right: solid 5px var(--highlight-color);
+    color: var(--highlight-color);
 }
 
 .resume-container {
@@ -416,16 +421,16 @@ a:hover {
 
 .about-cv {
     text-align: center;
-    border: solid 1px #66fcf1;
+    border: solid 1px var(--highlight-color);
     padding: 1rem;
-    color: #66fcf1;
+    color: var(--highlight-color);
     border-radius: 5px;
 }
 
 .about-cv:hover {
-    color: #c5c6c7;
-    background-color: #66fcf1;
-    border-color: #c5c6c7;
+    color: var(--main-font-color);
+    background-color: var(--highlight-color);
+    color: var(--main-font-color);
 }
 
 .about-cv-container {
@@ -478,7 +483,7 @@ a:hover {
 }
 
 .referee-title {
-    color: #66fcf1;
+    color: var(--highlight-color);
 }
 
 @media only screen and (max-width: 550px) {
@@ -523,13 +528,13 @@ form {
 .form input {
     display: block;
     background-color: transparent;
-    border-color: #66fcf1;
+    border-color: var(--highlight-color);
     width: 100%;
     border-radius: 5px;
 }
 
 .form input:hover {
-    border-color: #c5c6c7;
+    color: var(--main-font-color);
 }
 
 #message {
@@ -542,17 +547,17 @@ form {
 
 #submit {
     background-color: transparent;
-    color: #66fcf1;
-    border-color: #66fcf1;
+    color: var(--highlight-color);
+    border-color: var(--highlight-color);
     border-radius: 5px;
     width: 7rem;
     height: 3rem;
 }
 
 #submit:hover {
-    background-color: #66fcf1;
-    border-color: #c5c6c7;
-    color: #c5c6c7;
+    background-color: var(--highlight-color);
+    color: var(--main-font-color);
+    color: var(--main-font-color);
 }
 
 .button-container {
@@ -580,5 +585,5 @@ footer ul {
 }
 
 footer a {
-    color: #66fcf1
+    color: var(--highlight-color);
 }
