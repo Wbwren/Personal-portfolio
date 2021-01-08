@@ -72,7 +72,9 @@ Static website containing a personal bio, projects, interests, work history, str
 #### Imagery
 
 ### Wireframes
-https://github.com/Wbwren/personal-portfolio/blob/master/assets/wireframes/wireframe-desktop.png
+[Mobile View]()
+[Tablet View]()
+[Desktop View]()
 
 ## Features
 
